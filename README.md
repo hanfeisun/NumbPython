@@ -50,4 +50,4 @@ def (@1):
     return _3
 ```    
 
-    
+The syntax looks very weird, but it's quite simple actually. Most line is an expression. `_1` means to replace itself with the value of the expression in ONE line above. `_2` means to replace with that in TWO lines above. `|1` means to replace with that in ONE line below. The codes are evaulated line by line from top to down. If a line is not evaluated but used, it returns its default value, which locates within the `//`. 
